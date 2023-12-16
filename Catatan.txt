@@ -1,3 +1,42 @@
+Tech Stack
+Smart contract (Solidity) -> Immutable or unchangeable
+    1. create client side server (HTML, CSS, Java Script)
+    2. talk to the blockchain 
+    3. there we will put the smartcontract
+    4. connect with ethe wallet
+
+Node.js
+Ganache -> personal blockchain
+    like a real network but it run in computer (close network)
+
+Truffle Framework -> 
+    develop ethe smart contract with solidity
+    also can help create client side
+
+Meta mask
+    ethe a blockchain network
+    meta mask will help us connect with our personal account
+
+Bootstrap framework for building app
+Chai for testing the smart contract
+lite-server for running the server
+
+abi: abstract binary interface
+
+truffle console -> retrieve the smart contract in the blockchain
+version 5 -> async await pattern in the console 
+notesList = await NotesList.deployed()
+
+
+
+truffle compile
+truffle migrate --reset
+truffle test
+
+
+
+
+
 pragma solidity ^0.5.0;
 
 contract NotesList {
